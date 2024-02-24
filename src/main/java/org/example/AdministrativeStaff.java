@@ -51,4 +51,13 @@ public class AdministrativeStaff extends Staff{
         System.out.println("Personnel Report Created!");
     }
 
+    @Override
+    public void work() {
+        System.out.println("Worked 5h");
+    }
+
+    @Override
+    public void takeBreak() {
+        System.out.println("20 min break");
+    }
 }

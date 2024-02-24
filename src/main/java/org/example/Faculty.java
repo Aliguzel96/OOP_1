@@ -57,4 +57,14 @@ public class Faculty extends Staff{
             System.out.println("- " + lesson + ": " + hour);
         }
     }
+
+    @Override
+    public void work() {
+        System.out.println("Worked 7h");
+    }
+
+    @Override
+    public void takeBreak() {
+        System.out.println("30min Break!");
+    }
 }

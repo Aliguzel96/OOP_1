@@ -3,7 +3,7 @@ package org.example;
 import java.time.LocalDate;
 import java.time.Period;
 
-public abstract class Staff {
+public abstract class Staff implements StaffInterface{
     private String name;
     private String surName;
     private double identificationNum;
